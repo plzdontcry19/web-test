@@ -1,0 +1,32 @@
+home-page {
+    .home-page {
+        >.wrapper-menu {
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            width: 100%;
+        }
+        .slide-banner {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 80%;
+                border-radius: 30px;
+            }
+        }
+        .recommend {
+            padding: 0 10%;
+            margin-top: 20pt;
+            >.title-recommend {
+                font-size: 20pt;
+                display: flex;
+                justify-content: space-between;
+            }
+            >.img-recommend {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

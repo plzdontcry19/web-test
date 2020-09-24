@@ -1,0 +1,32 @@
+<div class="login-page">
+    <div class="head-login">
+        <span>เข้าสู่ระบบ</span>
+    </div>
+    <div class="form-login">
+        <div>
+            <div class="out-login">
+                <div class="in-login">
+                    <div class="inner-login">
+                        <label for="uname">Username </label>
+                        <input type="text" [(ngModel)]="uname" name="uname">
+                    </div>
+                </div>
+                <div class=" in-login ">
+                    <div class="inner-login ">
+                        <label for=pword>Password</label>
+                        <input type="password" [(ngModel)]="pword" name="pword">
+                        <span class="invalid" [style.visibility]="visib">username or password is incorrect</span>
+                    </div>
+                </div>
+                <div class="in-login ">
+                    <div>
+                        <!-- <button (click)='login()'><span>เข้าสู่ระบบ</span></button> -->
+                        <button (click)="login()"><span>เข้าสู่ระบบ</span></button>
+                        <button><span>ลืมรหัสผ่าน?</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

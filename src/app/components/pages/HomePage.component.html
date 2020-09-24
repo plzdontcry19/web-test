@@ -1,0 +1,21 @@
+<div class="home-page">
+    <img src="../../../assets/img/junebiko banner-01.png" alt="">
+    <div class="wrapper-menu">
+        <service-card *ngFor="let i of menuList" [menuTitle]="i"></service-card>
+        <!-- <service-card menuTitle="เติมเกม ID Pass"></service-card>
+        <service-card menuTitle="เติมเข้าแอพ"></service-card>
+        <service-card menuTitle="ช่องทางชำระเงิน"></service-card> -->
+    </div>
+    <div class="slide-banner">
+        <img src=" ../../../assets/img/junebiko banner-01.png " alt=" ">
+    </div>
+    <div class="recommend">
+        <div class='title-recommend'>
+            <span>Recommended</span>
+        </div>
+        <div class="img-recommend">
+            <recommended-card img="../../../assets/img/logo.png" detail="เติม ROV , Call of Duty ถูกกว่าเติมเอง 20 - 30 % เติม ROV , Call of Duty ถูกกว่าเติมเอง 20 - 30 % " price="500"></recommended-card>
+            <recommended-card img="../../../assets/img/logo.png" detail="เติม ROV , Call of Duty ถูกกว่าเติมเอง 20 - 30 % " price="500"></recommended-card>
+            <recommended-card img="../../../assets/img/logo.png" detail="เติม ROV , Call of Duty ถูกกว่าเติมเอง 20 - 30 % " price="500"></recommended-card>
+        </div>
+    </div>

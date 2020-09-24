@@ -1,0 +1,17 @@
+recommended-card {
+    .recommended-one {
+        margin: 10pt;
+        img {
+            box-shadow: 1px 1px 2px rgb(235, 235, 235);
+            margin-bottom: 10pt;
+        }
+        .recommended-detail {
+            font-size: 13pt;
+        }
+        .recommended-price {
+            color: red;
+            font-size: 13pt;
+            text-align: center;
+        }
+    }
+}

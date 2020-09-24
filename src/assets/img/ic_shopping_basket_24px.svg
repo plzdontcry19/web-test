@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89.256" height="79.474" viewBox="0 0 89.256 79.474">
+  <defs>
+    <filter id="ic_shopping_basket_24px" x="0" y="0" width="89.256" height="79.474" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#ic_shopping_basket_24px)">
+    <path id="ic_shopping_basket_24px-2" data-name="ic_shopping_basket_24px" d="M53.5,24.628,39.316,3.38a3.215,3.215,0,0,0-2.688-1.36A3.165,3.165,0,0,0,33.94,3.413L19.753,24.628H4.239A3.248,3.248,0,0,0,1,27.866a2.728,2.728,0,0,0,.13.875L9.356,58.766a6.441,6.441,0,0,0,6.219,4.729H57.681a6.509,6.509,0,0,0,6.251-4.729l8.227-30.025.1-.875a3.248,3.248,0,0,0-3.239-3.239Zm-26.591,0,9.717-14.251,9.717,14.251Zm9.717,25.911a6.478,6.478,0,1,1,6.478-6.478A6.5,6.5,0,0,1,36.628,50.539Z" transform="translate(8 3.98)" fill="#fff"/>
+  </g>
+</svg>

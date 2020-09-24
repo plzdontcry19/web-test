@@ -1,0 +1,41 @@
+<div class="register-page">
+    <div class="head-register ">
+        <span>สมัครสมาชิก</span>
+    </div>
+    <div class="form-register">
+        <form action=" ">
+            <div class="out-row">
+                <div class="in-row">
+                    <label for=" uname ">Username</label>
+                    <input type="text" [(ngModel)]="uname" placeholder="example112" pattern="/^[a-z\d]+$/i " name="uname">
+                </div>
+                <div class="in-row">
+                    <div class="inner-row">
+                        <label for="pass">Password</label>
+                        <input type="password" [(ngModel)]="pword" pattern="/^[a-z\d]+$/i " name="pass">
+                    </div>
+                    <div class="inner-row">
+                        <label for="comfirm-pass ">Comfirm Password</label>
+                        <input type="password" [(ngModel)]="comfirmPword" name="comfirm-pass">
+                    </div>
+                </div>
+                <div class="in-row">
+                    <div class="inner-row">
+                        <label for="email ">Email</label>
+                        <input type="email " [(ngModel)]="email" placeholder=" " name="email">
+                    </div>
+                    <div class="inner-row">
+                        <label for="phone">Phone</label>
+                        <input type="tel" [(ngModel)]="tel" placeholder=" " name="phone" maxlength="10">
+                    </div>
+                </div>
+                <span class="status" [style.visibility]="visib">{{status}}</span>
+                <div class="in-row">
+                    <button (click)="register()"><span>สมัครสมาชิก</span></button>
+                    <button routerLink="/home"><span>ย้อนกลับ</span></button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
